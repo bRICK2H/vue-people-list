@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
 	 "build": "vue-cli-service build",
-	 "deploy": "./deploy.sh"
+	 "deploy": "deploy.sh"
   },
   "dependencies": {
     "axios": "^0.21.1",
