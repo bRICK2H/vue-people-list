@@ -1,4 +1,4 @@
-# waviot
+# vue-people-list
 
 ## Project setup
 ```
