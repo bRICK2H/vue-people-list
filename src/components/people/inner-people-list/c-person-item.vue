@@ -5,16 +5,16 @@
 
 		<div class="container-props">
 			<div class="box-props container-props__box-props">
-				<span class="box-props__item">gender: {{ person.gender }}</span>
-				<span class="box-props__item">birth_year: {{ person.birth_year }}</span>
-				<span class="box-props__item">mass: {{ person.mass }}</span>
-				<span class="box-props__item">height: {{ person.height }}</span>
+				<span class="box-props__item">Gender: {{ person.gender }}</span>
+				<span class="box-props__item">Birth year: {{ person.birth_year }}</span>
+				<span class="box-props__item">Mass: {{ person.mass }}</span>
+				<span class="box-props__item">Height: {{ person.height }}</span>
 			</div>
 			<div class="box-props container-props__box-props">
-				<span class="box-props__item">eye_color: {{ person.eye_color }}</span>
-				<span class="box-props__item">hair_color: {{ person.hair_color }}</span>
-				<span class="box-props__item">skin_color: {{ person.skin_color }}</span>
-				<span class="box-props__item">created: {{ person.created | modifyDate }}</span>
+				<span class="box-props__item">Eye color: {{ person.eye_color }}</span>
+				<span class="box-props__item">Hair color: {{ person.hair_color }}</span>
+				<span class="box-props__item">Skin color: {{ person.skin_color }}</span>
+				<span class="box-props__item">Created: {{ person.created | modifyDate }}</span>
 			</div>
 		</div>
       
